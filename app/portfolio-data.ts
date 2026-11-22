@@ -850,6 +850,14 @@ export const testimonials: Testimonial[] = [
     role: 'IT Lead and Software Engineer',
     org: 'IRRI',
   },
+  {
+    quotes: [
+      'Jiyo is hardworking, approachable, and easy to work with. I remember our time working together at IRRI, where he was my colleague. Whenever I had questions or needed clarification about my tasks, he was always willing to help and provide answers. I truly appreciated his knowledge, support, and willingness to share his expertise. I hope we get the opportunity to work together again and collaborate on future projects! :)',
+    ],
+    name: 'Juliemar Añonuevo',
+    role: 'Full Stack Developer',
+    org: 'Muval',
+  },
 ]
 
 export type Certificate = {
