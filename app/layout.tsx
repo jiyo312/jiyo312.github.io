@@ -11,8 +11,11 @@ export const metadata: Metadata = {
   description,
   keywords: [
     'Jiyo Collin Pagtananan',
+    'Jiyo Pagtananan',
     'Software Engineer',
+    'Software Developer',
     'Full Stack Engineer',
+    'Full Stack Developer',
     'Philippines',
     'React',
     'Angular',
@@ -36,8 +39,15 @@ export const metadata: Metadata = {
     title: 'Jiyo Collin Pagtananan | Full Stack Engineer',
     description,
   },
+  // app/icon.png and app/apple-icon.png are picked up automatically by
+  // Next.js. The PNG comes first because Google doesn't reliably use SVG
+  // favicons; the SVG stays as a sharp icon for browsers that support it.
   icons: {
-    icon: '/favicon-jp.svg',
+    icon: [
+      { url: '/icon.png', type: 'image/png', sizes: '512x512' },
+      { url: '/favicon-jp.svg', type: 'image/svg+xml' },
+    ],
+    apple: '/apple-icon.png',
   },
 }
 
