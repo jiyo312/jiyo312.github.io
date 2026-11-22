@@ -15,6 +15,7 @@ import qlikSenseCertImport from './assets/qlick-sense.webp'
 import pythonCertImport from './assets/python.webp'
 import awardImport from './assets/award.webp'
 import PythonIcon from './python-icon'
+import KiroIcon from './kiro-icon'
 
 const ebsImage = ebsImageImport.src
 const rcmImage = rcmImageImport.src
@@ -1048,6 +1049,7 @@ export const skillCategories: SkillCategory[] = [
       { icon: SiJira, name: 'Jira', color: '#0052cc' },
       { icon: SiConfluence, name: 'Confluence', color: '#172b4d' },
       { icon: LuRefreshCw, name: 'Agile/Scrum' },
+      { icon: KiroIcon, name: 'Kiro', color: '#9046ff' },
     ],
   },
 ]

@@ -34,7 +34,7 @@ const stacks = [
   {
     label: 'Extra',
     sub: 'Tools I use across all stacks',
-    names: ['Git', 'Docker', 'Liquibase', 'Terraform'],
+    names: ['Git', 'Docker', 'Liquibase', 'Terraform', 'Kiro'],
   },
 ]
 
