@@ -22,12 +22,12 @@ const steps = [
   {
     title: 'Deploy',
     summary: 'Deliver to users',
-    details: ['Application', 'Data', 'Infrastructure', 'Integrate', 'Configure', 'Secure', 'Monitor'],
+    details: ['Application', 'Data', 'Infrastructure', 'Secure', 'Monitor'],
   },
   {
-    title: 'Adapt',
+    title: 'Maintainance',
     summary: 'Improve continuously',
-    details: ['Add Improvements', 'Resolve bugs', 'Refactoring', 'Testing', 'Documentation']
+    details: ['Bug fixes', 'Upgrades', 'Customer Support', 'Technical Debt']
   },
  
 ]

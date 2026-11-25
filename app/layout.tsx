@@ -3,7 +3,7 @@ import './globals.css'
 
 const siteUrl = 'https://jiyopagtananan.com'
 const description =
-  'Jiyo Collin Pagtananan — Full Stack Engineer with 7+ years building and modernizing scalable web and mobile systems, from offline-first apps to unified platforms serving millions.'
+  'Jiyo Collin Pagtananan — Full Stack Engineer with 7+ years building web apps that solves people problems'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     'Software Developer',
     'Full Stack Engineer',
     'Full Stack Developer',
+    'Filipino',
     'Philippines',
     'React',
     'Angular',
